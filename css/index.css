@@ -1,3 +1,22 @@
+.box{
+	background-color: #70B5DD;
+	width: max;
+	padding-bottom: 55px;
+	text-align: center;
+}
+
+.icon-header{
+	width: 100%;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.icon-header img{
+	height: 200px;
+	text-align: center;
+}
+
+
 body{
 	margin: 0;
 	font-family: Helvetica, Arial, sans-serif;
@@ -7,8 +26,7 @@ body{
 header{
 	background-color: #70B5DD;
 	text-align: center;
-	padding-top: 2px;
-	padding-bottom: 2;
+
 }
 
 h1, h2{
@@ -18,21 +36,26 @@ h1, h2{
 
 header h1{
 	color:  blue;
+	text-align: center;
 }
 
 header img{
 	border-radius: 250px;
 	border: 10px solid yellow;
+	text-align: center;
 }
 
 main{
-	max-width: 1500px;
+	max-width: 2000px;
 	margin: 0 auto;
-	padding: 0 200px;
 }
 
 main img{
 	max-width: 100%;
+}
+
+img{
+	text-align: center;
 }
 
 h2{
@@ -47,9 +70,17 @@ p{
 }
 
 a{
-	color: red;
+	float: left;
+  color: red;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 17px;
 }
 a:hover{
+	color: white;
+	background-color: mediumpurple;
+}
+a.active{
 	color: white;
 	background-color: mediumpurple;
 }

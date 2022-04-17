@@ -1,20 +1,20 @@
 .box{
-	background-color: blue;
-	width: 100px;
-	text-decoration: none;
+	background-color: #70B5DD;
+	width: max;
+	padding-bottom: 55px;
+	text-align: center;
 }
 
 .icon-header{
-	width: 40%;
+	width: 100%;
+	text-align: center;
 	padding-top: 15px;
 }
 
 .icon-header img{
 	height: 200px;
+	text-align: center;
 }
-
-
-
 
 
 body{
@@ -36,21 +36,26 @@ h1, h2{
 
 header h1{
 	color:  blue;
+	text-align: center;
 }
 
 header img{
 	border-radius: 250px;
 	border: 10px solid yellow;
+	text-align: center;
 }
 
 main{
-	max-width: 1500px;
+	max-width: 2000px;
 	margin: 0 auto;
-	padding: 0 200px;
 }
 
 main img{
 	max-width: 100%;
+}
+
+img{
+	text-align: center;
 }
 
 h2{
