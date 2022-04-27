@@ -89,7 +89,7 @@ a:hover{
 	color: white;
 	background-color: mediumpurple;
 }
-a.active{
+a:active{
 	color: white;
 	background-color: mediumpurple;
 }
